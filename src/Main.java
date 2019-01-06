@@ -4,14 +4,15 @@ public class Main {
 
     public static void main (String args[])
     {
-        System.out.println("Hello, World!");
+        City cityOne  = new City("Königsberg");
+        cityOne.printCityData();
+        City cityTwo = new City("Tomsk", 500000);
+        cityTwo.printCityData();
+        City cityThree  = new City("Saint Petersburg", 4991000, false);
+        cityThree.printCityData();
 
-        System.out.println("Test row for new commit!");
+        cityOne.renameCity("Kaliningrad");
 
-        System.out.println("This is for FeatureOne branch!");
-
-        System.out.println("One more row FeatureOne!");
-
-        System.out.println("Some unique changes in FeatureOne branch were made!");
+        System.out.println("--------------------------------------------------");
     }
 }
