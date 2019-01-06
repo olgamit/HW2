@@ -10,5 +10,7 @@ public class Main {
         System.out.println("Hello," + args[2] + "!");
 
         System.out.println("Hello, World!");
+
+        System.out.println("Test row for new commit!");
     }
 }
