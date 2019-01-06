@@ -14,5 +14,7 @@ public class Main {
         System.out.println("Test row for new commit!");
 
         System.out.println("This is for FeatureOne branch!");
+
+        System.out.println("One more row FeatureOne!");
     }
 }
